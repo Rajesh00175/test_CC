@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ParkingBill_Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.239 s <<< FAILURE! - in ParkingBill_Test
+calculateThreeHoursTariff(ParkingBill_Test)  Time elapsed: 0.113 s  <<< FAILURE!
+java.lang.AssertionError: expected:<24> but was:<30>
+	at ParkingBill_Test.calculateThreeHoursTariff(ParkingBill_Test.java:38)
+
+calculateThreeHoursTariffWithService(ParkingBill_Test)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected:<24> but was:<30>
+	at ParkingBill_Test.calculateThreeHoursTariffWithService(ParkingBill_Test.java:48)
+
